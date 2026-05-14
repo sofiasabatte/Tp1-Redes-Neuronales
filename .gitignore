@@ -180,4 +180,4 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-datos/Split_smol/
+data/Split_smol/
