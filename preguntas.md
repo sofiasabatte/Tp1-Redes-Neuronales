@@ -1,0 +1,10 @@
+# PREGUNTAS SOBRE EL EJEMPLO DE CLASIFICACIÓN DE IMAGENES CON PYTORCH Y MLP
+## 1. Dataset y Preprocesamiento
+**a. ¿Por qué es necesario redimensionar las imágenes a un tamaño fijo para una MLP?**
+La MLP (Red Neuronal Multicapa), tiene una cantidad fija de entradas. Es por esto que se deben redimensionar todas las imaganes al mismo tamaño, para que tengan la misma cantidad de pixeles, y por ende la misma cantidad de numeros al hacer el flatten.
+**b. ¿Qué ventajas ofrece Albumentations frente a otras librerías de transformación como torchvision.transforms?**
+Son librerías que sirven para transformar imágenes, tanto para preprocesarlas (redimensionar, normalizar) como para hacer data augmentation, generar versiones modificadas de las imágenes  para auemntar tu dataset para el entrenmiento. Albumentations tiene ventajas frente a torchvision: es más rápida, tiene más variedad de transformaciones y permite aplicarlas con probabilidades distintas para cada una.
+**c. ¿Qué hace A.Normalize()? ¿Por qué es importante antes de entrenar una red?**
+Las imagenes tienen pixeles entre 0 y 255. A.Normalize() busca transformar estos valores usando medio 0 y desvio estandar 1, para achicar la escala y volver el dataset mas uniforme. Esto es importantisimo para lograr un entrenamiento mas rspido y estable.
+**d. ¿Por qué convertimos las imágenes a ToTensorV2() al final de la pipeline?**
+ToTensorV2() busca convertir el datset a un formato que entiende la red. PyTorch no entiende imagenes sino que trabaja con tensores que son arrays multidimensionales de números que la GPU puede procesar eficientemente. La imagen entra como un array de numpy con forma (alto, ancho, caneles); y ToTensorV2() la convierte a un tensor de PyTorch cambiando el orden de las dimensiones a (canales, alto, ancho), que es el formato que espera la red.
