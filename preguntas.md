@@ -17,8 +17,11 @@ ToTensorV2() busca convertir el datset a un formato que entiende la red. PyTorch
 ## 2. Arquitectura del Modelo
 
 **a. ¿Por qué usamos una red MLP en lugar de una CNN aquí? ¿Qué limitaciones tiene?**
+Una MLP, es una red neuronal donde cada neurona esta conectada con todas las neuronas de la siguiente capa. La entrada es el tensor mencionado anteriormente (la imagen con el flatten). Por su parte las CNN (Redes Neuronales Convolucionales), estan diseñadas para procesar la imagen por trozos para encontrar patrones. 
+Usamos MLP aca,  porque es un modelo mas basico para arrancar a entender como funcionan las redes nueronales. Las desventajas que va a traer van a ser: al hacer un flatten, se va a perder la estructura espacial (entender si algo es una mancha o una textura por ejemplo); ademas tiene muchos parametros, volviendo el proceso lento y propenso a errores (como overfitting); y ademas, no detecta patrones locales.
 
 **b. ¿Qué hace la capa Flatten() al principio de la red?**
+La capa flatten mencionada ya anteriormente, lo que hace es "desenrollar" la imagen, multiplicando ancho alto y canales para que la MLP la pueda procesar.
 
 **c. ¿Qué función de activación se usó? ¿Por qué no usamos Sigmoid o Tanh?**
 
