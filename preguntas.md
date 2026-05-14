@@ -16,51 +16,51 @@ ToTensorV2() busca convertir el datset a un formato que entiende la red. PyTorch
 
 ## 2. Arquitectura del Modelo
 
-**¿Por qué usamos una red MLP en lugar de una CNN aquí? ¿Qué limitaciones tiene?**
+**a. ¿Por qué usamos una red MLP en lugar de una CNN aquí? ¿Qué limitaciones tiene?**
 
-**¿Qué hace la capa Flatten() al principio de la red?**
+**b. ¿Qué hace la capa Flatten() al principio de la red?**
 
-**¿Qué función de activación se usó? ¿Por qué no usamos Sigmoid o Tanh?**
+**c. ¿Qué función de activación se usó? ¿Por qué no usamos Sigmoid o Tanh?**
 
-**¿Qué parámetro del modelo deberíamos cambiar si aumentamos el tamaño de entrada de la imagen?**
+**d. ¿Qué parámetro del modelo deberíamos cambiar si aumentamos el tamaño de entrada de la imagen?**
 
 ## 3. Entrenamiento y Optimización
 
-**¿Qué hace optimizer.zero_grad()?**
+**a. ¿Qué hace optimizer.zero_grad()?**
 
-**¿Por qué usamos CrossEntropyLoss() en este caso?**
+**b. ¿Por qué usamos CrossEntropyLoss() en este caso?**
 
-**¿Cómo afecta la elección del tamaño de batch (batch_size) al entrenamiento?**
+**c. ¿Cómo afecta la elección del tamaño de batch (batch_size) al entrenamiento?**
 
-**¿Qué pasaría si no usamos model.eval() durante la validación?**
+**d. ¿Qué pasaría si no usamos model.eval() durante la validación?**
 
 ## 4. Validación y Evaluación
 
-**¿Qué significa una accuracy del 70% en validación pero 90% en entrenamiento?**
+**a. ¿Qué significa una accuracy del 70% en validación pero 90% en entrenamiento?**
 
-**¿Qué otras métricas podrían ser más relevantes que accuracy en un problema real?**
+**b. ¿Qué otras métricas podrían ser más relevantes que accuracy en un problema real?**
 
-**¿Qué información útil nos da una matriz de confusión que no nos da la accuracy?**
+**c. ¿Qué información útil nos da una matriz de confusión que no nos da la accuracy?**
 
-**En el reporte de clasificación, ¿qué representan precision, recall y f1-score?**
+**d. En el reporte de clasificación, ¿qué representan precision, recall y f1-score?**
 
 ## 5. TensorBoard y Logging
 
-**¿Qué ventajas tiene usar TensorBoard durante el entrenamiento?**
+**a. ¿Qué ventajas tiene usar TensorBoard durante el entrenamiento?**
 
-**¿Qué diferencias hay entre loguear add_scalar, add_image y add_text?**
+**b. ¿Qué diferencias hay entre loguear add_scalar, add_image y add_text?**
 
-**¿Por qué es útil guardar visualmente las imágenes de validación en TensorBoard?**
+**c. ¿Por qué es útil guardar visualmente las imágenes de validación en TensorBoard?**
 
-**¿Cómo se puede comparar el desempeño de distintos experimentos en TensorBoard?**
+**d. ¿Cómo se puede comparar el desempeño de distintos experimentos en TensorBoard?**
 
 ## 6. Generalización y Transferencia
 
-**¿Qué cambios habría que hacer si quisiéramos aplicar este mismo modelo a un dataset con 100 clases?**
+**a. ¿Qué cambios habría que hacer si quisiéramos aplicar este mismo modelo a un dataset con 100 clases?**
 
-**¿Por qué una CNN suele ser más adecuada que una MLP para clasificación de imágenes?**
+**b. ¿Por qué una CNN suele ser más adecuada que una MLP para clasificación de imágenes?**
 
-**¿Qué problema podríamos tener si entrenamos este modelo con muy pocas imágenes por clase?**
+**c. ¿Qué problema podríamos tener si entrenamos este modelo con muy pocas imágenes por clase?**
 
-**¿Cómo podríamos adaptar este pipeline para imágenes en escala de grises?**
+**d. ¿Cómo podríamos adaptar este pipeline para imágenes en escala de grises?**
 
