@@ -181,3 +181,5 @@ cython_debug/
 .cursorindexingignore
 
 data/Split_smol/
+
+.ipynb_checkpoints/
