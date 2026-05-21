@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/bb9adf640e78487d80117bf52debfd8a/artifacts
+end_time: 1779387511623
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: bb9adf640e78487d80117bf52debfd8a
+run_name: bittersweet-mare-856
+run_uuid: bb9adf640e78487d80117bf52debfd8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779387346596
+status: 3
+tags: []
+user_id: Sofia

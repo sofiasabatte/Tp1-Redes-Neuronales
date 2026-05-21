@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/03f7424a8b9d4606b8bd5b03dbce16fa/artifacts
+end_time: 1779389248335
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 03f7424a8b9d4606b8bd5b03dbce16fa
+run_name: dapper-dolphin-973
+run_uuid: 03f7424a8b9d4606b8bd5b03dbce16fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779389053887
+status: 3
+tags: []
+user_id: Sofia
