@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/730e7ba9793e4944b8bf7be8886ab273/artifacts
+end_time: 1779398079577
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 730e7ba9793e4944b8bf7be8886ab273
+run_name: thundering-lynx-164
+run_uuid: 730e7ba9793e4944b8bf7be8886ab273
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779397709031
+status: 3
+tags: []
+user_id: Sofia
