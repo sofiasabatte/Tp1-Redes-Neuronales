@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/6250a51fe80340a681a10a9a9eb7cc13/artifacts
+end_time: 1779382906802
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 6250a51fe80340a681a10a9a9eb7cc13
+run_name: thundering-gull-850
+run_uuid: 6250a51fe80340a681a10a9a9eb7cc13
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779382763905
+status: 3
+tags: []
+user_id: Sofia

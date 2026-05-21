@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/312b612abb724c039b2d0afe2839de45/artifacts
+end_time: 1779382488333
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 312b612abb724c039b2d0afe2839de45
+run_name: sneaky-hen-802
+run_uuid: 312b612abb724c039b2d0afe2839de45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779382321188
+status: 3
+tags: []
+user_id: Sofia
