@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/a285e56641a74dc3a0c75b68efa265a4/artifacts
+deleted_time: 1779377914481
 end_time: 1779376942475
 entry_point_name: ''
 experiment_id: '548689065550430374'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a285e56641a74dc3a0c75b68efa265a4
 run_name: amusing-slug-846
 run_uuid: a285e56641a74dc3a0c75b68efa265a4
