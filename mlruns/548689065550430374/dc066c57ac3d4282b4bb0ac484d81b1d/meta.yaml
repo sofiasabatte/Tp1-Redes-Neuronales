@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/dc066c57ac3d4282b4bb0ac484d81b1d/artifacts
+end_time: 1779395128613
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: dc066c57ac3d4282b4bb0ac484d81b1d
+run_name: monumental-finch-500
+run_uuid: dc066c57ac3d4282b4bb0ac484d81b1d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779394838108
+status: 3
+tags: []
+user_id: Sofia
