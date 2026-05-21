@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/0d041879a42d4ccda4abb54b1314bd34/artifacts
+end_time: 1779376624964
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 0d041879a42d4ccda4abb54b1314bd34
+run_name: funny-yak-449
+run_uuid: 0d041879a42d4ccda4abb54b1314bd34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779376443994
+status: 3
+tags: []
+user_id: Sofia

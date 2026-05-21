@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/aa99d9017dbe41a796223feba4f60603/artifacts
+deleted_time: 1779377441195
 end_time: 1779236393086
 entry_point_name: ''
 experiment_id: '548689065550430374'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: aa99d9017dbe41a796223feba4f60603
 run_name: tasteful-mule-728
 run_uuid: aa99d9017dbe41a796223feba4f60603

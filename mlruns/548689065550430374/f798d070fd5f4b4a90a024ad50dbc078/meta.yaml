@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/f798d070fd5f4b4a90a024ad50dbc078/artifacts
+deleted_time: 1779377441167
+end_time: 1779375605084
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: deleted
+run_id: f798d070fd5f4b4a90a024ad50dbc078
+run_name: orderly-zebra-470
+run_uuid: f798d070fd5f4b4a90a024ad50dbc078
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779375400651
+status: 3
+tags: []
+user_id: Sofia

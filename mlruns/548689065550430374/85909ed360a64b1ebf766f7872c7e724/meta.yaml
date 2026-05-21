@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/85909ed360a64b1ebf766f7872c7e724/artifacts
+deleted_time: 1779377441200
+end_time: 1779371239087
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: deleted
+run_id: 85909ed360a64b1ebf766f7872c7e724
+run_name: agreeable-hound-846
+run_uuid: 85909ed360a64b1ebf766f7872c7e724
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779371079868
+status: 3
+tags: []
+user_id: Sofia

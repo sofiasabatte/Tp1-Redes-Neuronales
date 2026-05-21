@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/d017b549c2514138b2fecdb41bff8ccc/artifacts
+deleted_time: 1779377441223
+end_time: 1779371036268
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: deleted
+run_id: d017b549c2514138b2fecdb41bff8ccc
+run_name: hilarious-ant-62
+run_uuid: d017b549c2514138b2fecdb41bff8ccc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779370892158
+status: 4
+tags: []
+user_id: Sofia
