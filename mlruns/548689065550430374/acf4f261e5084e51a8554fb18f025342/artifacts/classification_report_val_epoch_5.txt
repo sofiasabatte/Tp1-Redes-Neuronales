@@ -1,0 +1,9 @@
+              precision    recall  f1-score   support
+
+         bcc       0.89      0.94      0.92        53
+         mel       0.82      0.70      0.76        20
+          nv       0.00      0.00      0.00         0
+
+    accuracy                           0.88        73
+   macro avg       0.57      0.55      0.56        73
+weighted avg       0.87      0.88      0.87        73

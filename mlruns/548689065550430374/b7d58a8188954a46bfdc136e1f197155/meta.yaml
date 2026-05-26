@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/b7d58a8188954a46bfdc136e1f197155/artifacts
+end_time: 1779813030499
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: b7d58a8188954a46bfdc136e1f197155
+run_name: salty-midge-36
+run_uuid: b7d58a8188954a46bfdc136e1f197155
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779812971217
+status: 4
+tags: []
+user_id: Sofia

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/e1adb816a1af470d883310a74cf817a7/artifacts
+end_time: 1779812387079
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: e1adb816a1af470d883310a74cf817a7
+run_name: mysterious-skink-655
+run_uuid: e1adb816a1af470d883310a74cf817a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779812241094
+status: 3
+tags: []
+user_id: Sofia

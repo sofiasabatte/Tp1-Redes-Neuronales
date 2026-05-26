@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/94dec12ca28c4690af914b1f55bb7d89/artifacts
+end_time: 1779811343161
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 94dec12ca28c4690af914b1f55bb7d89
+run_name: delicate-midge-930
+run_uuid: 94dec12ca28c4690af914b1f55bb7d89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779811198734
+status: 3
+tags: []
+user_id: Sofia

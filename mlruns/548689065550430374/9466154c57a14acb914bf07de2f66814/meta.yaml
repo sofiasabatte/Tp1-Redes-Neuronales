@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/9466154c57a14acb914bf07de2f66814/artifacts
+end_time: 1779811598424
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 9466154c57a14acb914bf07de2f66814
+run_name: abundant-dolphin-540
+run_uuid: 9466154c57a14acb914bf07de2f66814
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779811457946
+status: 3
+tags: []
+user_id: Sofia
