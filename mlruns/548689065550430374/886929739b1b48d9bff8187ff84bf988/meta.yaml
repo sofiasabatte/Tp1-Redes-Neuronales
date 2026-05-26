@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/886929739b1b48d9bff8187ff84bf988/artifacts
+end_time: 1779815048284
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 886929739b1b48d9bff8187ff84bf988
+run_name: debonair-wasp-362
+run_uuid: 886929739b1b48d9bff8187ff84bf988
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779814737559
+status: 3
+tags: []
+user_id: Sofia
