@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/9d031dcd361944bab863f588d6b7b1fb/artifacts
+deleted_time: 1779838456149
 end_time: 1779394003178
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 9d031dcd361944bab863f588d6b7b1fb
 run_name: brawny-bat-34
 run_uuid: 9d031dcd361944bab863f588d6b7b1fb
