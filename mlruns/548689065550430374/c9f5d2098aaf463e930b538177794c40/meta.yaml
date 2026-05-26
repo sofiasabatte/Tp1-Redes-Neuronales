@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/c9f5d2098aaf463e930b538177794c40/artifacts
+end_time: 1779806383536
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: c9f5d2098aaf463e930b538177794c40
+run_name: whimsical-stag-162
+run_uuid: c9f5d2098aaf463e930b538177794c40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779806370804
+status: 4
+tags: []
+user_id: Sofia

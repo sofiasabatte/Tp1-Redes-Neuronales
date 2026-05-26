@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/e1f8f70ab67d48d483db95ae85c0baea/artifacts
+end_time: 1779806607002
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: e1f8f70ab67d48d483db95ae85c0baea
+run_name: overjoyed-crab-892
+run_uuid: e1f8f70ab67d48d483db95ae85c0baea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779806594585
+status: 4
+tags: []
+user_id: Sofia

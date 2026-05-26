@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/4f668a81759e4ff3bf09ed6c49e4ef89/artifacts
+end_time: 1779805696585
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 4f668a81759e4ff3bf09ed6c49e4ef89
+run_name: grandiose-shrike-885
+run_uuid: 4f668a81759e4ff3bf09ed6c49e4ef89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779805515450
+status: 3
+tags: []
+user_id: Sofia
