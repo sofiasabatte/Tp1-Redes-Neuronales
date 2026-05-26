@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/1f337de74fd34ba09f5e52ab6084398e/artifacts
+end_time: 1779807750735
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 1f337de74fd34ba09f5e52ab6084398e
+run_name: rumbling-bug-285
+run_uuid: 1f337de74fd34ba09f5e52ab6084398e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779807571984
+status: 3
+tags: []
+user_id: Sofia

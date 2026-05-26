@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/242f29b5ddd3415cbb80c8b63f13fc18/artifacts
+end_time: 1779809182718
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 242f29b5ddd3415cbb80c8b63f13fc18
+run_name: spiffy-mare-792
+run_uuid: 242f29b5ddd3415cbb80c8b63f13fc18
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779809103522
+status: 4
+tags: []
+user_id: Sofia
