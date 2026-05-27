@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/baf8d3d4cd584f7db0e2da078d51fa98/artifacts
+end_time: 1779843690323
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: baf8d3d4cd584f7db0e2da078d51fa98
+run_name: useful-mouse-413
+run_uuid: baf8d3d4cd584f7db0e2da078d51fa98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779843350998
+status: 3
+tags: []
+user_id: Sofia

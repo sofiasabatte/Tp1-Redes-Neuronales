@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/38c11dbaef8a478aaa622589ff9476ad/artifacts
+end_time: 1779844887003
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: 38c11dbaef8a478aaa622589ff9476ad
+run_name: popular-deer-737
+run_uuid: 38c11dbaef8a478aaa622589ff9476ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779844636857
+status: 3
+tags: []
+user_id: Sofia

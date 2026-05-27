@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/5f78a39e55214502bb8af911d4da8771/artifacts
+end_time: 1779845486027
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: 5f78a39e55214502bb8af911d4da8771
+run_name: sincere-rat-795
+run_uuid: 5f78a39e55214502bb8af911d4da8771
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779845243471
+status: 3
+tags: []
+user_id: Sofia

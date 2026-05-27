@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/a8dc4cc29de74830b3f4cb4b06fd20b4/artifacts
+end_time: 1779846556881
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: a8dc4cc29de74830b3f4cb4b06fd20b4
+run_name: loud-jay-484
+run_uuid: a8dc4cc29de74830b3f4cb4b06fd20b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779846366952
+status: 3
+tags: []
+user_id: Sofia

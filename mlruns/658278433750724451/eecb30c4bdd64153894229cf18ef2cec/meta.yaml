@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/eecb30c4bdd64153894229cf18ef2cec/artifacts
+end_time: 1779844636755
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: eecb30c4bdd64153894229cf18ef2cec
+run_name: victorious-pig-575
+run_uuid: eecb30c4bdd64153894229cf18ef2cec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779844295146
+status: 3
+tags: []
+user_id: Sofia

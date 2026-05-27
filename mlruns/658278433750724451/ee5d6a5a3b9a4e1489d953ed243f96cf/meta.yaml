@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/ee5d6a5a3b9a4e1489d953ed243f96cf/artifacts
+end_time: 1779842854727
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: ee5d6a5a3b9a4e1489d953ed243f96cf
+run_name: nebulous-snipe-100
+run_uuid: ee5d6a5a3b9a4e1489d953ed243f96cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779842542570
+status: 3
+tags: []
+user_id: Sofia

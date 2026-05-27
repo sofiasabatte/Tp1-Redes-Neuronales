@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/8347059c2f7a4c1f9ffdf81b2973b76c/artifacts
+end_time: 1779843996168
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: 8347059c2f7a4c1f9ffdf81b2973b76c
+run_name: amazing-auk-816
+run_uuid: 8347059c2f7a4c1f9ffdf81b2973b76c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779843690473
+status: 3
+tags: []
+user_id: Sofia

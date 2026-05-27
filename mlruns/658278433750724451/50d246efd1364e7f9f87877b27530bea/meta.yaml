@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/50d246efd1364e7f9f87877b27530bea/artifacts
+deleted_time: 1779840437568
+end_time: null
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: deleted
+run_id: 50d246efd1364e7f9f87877b27530bea
+run_name: melodic-mole-652
+run_uuid: 50d246efd1364e7f9f87877b27530bea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779840114019
+status: 1
+tags: []
+user_id: Sofia

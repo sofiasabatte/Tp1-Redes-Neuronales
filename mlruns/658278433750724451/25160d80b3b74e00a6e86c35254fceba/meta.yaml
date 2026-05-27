@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/25160d80b3b74e00a6e86c35254fceba/artifacts
+end_time: 1779845722226
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: 25160d80b3b74e00a6e86c35254fceba
+run_name: peaceful-owl-117
+run_uuid: 25160d80b3b74e00a6e86c35254fceba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779845486210
+status: 3
+tags: []
+user_id: Sofia

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/0b75197399544a3181505b2832ffa16e/artifacts
+end_time: 1779846214045
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: 0b75197399544a3181505b2832ffa16e
+run_name: carefree-shrike-329
+run_uuid: 0b75197399544a3181505b2832ffa16e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779845946441
+status: 3
+tags: []
+user_id: Sofia

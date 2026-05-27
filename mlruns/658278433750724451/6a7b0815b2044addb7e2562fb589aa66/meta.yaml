@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/6a7b0815b2044addb7e2562fb589aa66/artifacts
+end_time: 1779841813743
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: 6a7b0815b2044addb7e2562fb589aa66
+run_name: auspicious-ram-539
+run_uuid: 6a7b0815b2044addb7e2562fb589aa66
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779841623940
+status: 3
+tags: []
+user_id: Sofia

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/99fb43d9c2574cd3b9209c6e2ebed6e1/artifacts
+end_time: 1779843060486
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: 99fb43d9c2574cd3b9209c6e2ebed6e1
+run_name: exultant-colt-746
+run_uuid: 99fb43d9c2574cd3b9209c6e2ebed6e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779842854884
+status: 3
+tags: []
+user_id: Sofia
