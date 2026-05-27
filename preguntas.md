@@ -94,12 +94,19 @@ Y el input_size, hay que sacar el * 3 de la primera capa del modelo.
 
 ### Preguntas teóricas:
 **a. ¿Qué es la regularización en el contexto del entrenamiento de redes neuronales?**
+
 **b. ¿Cuál es la diferencia entre `Dropout` y regularización `L2` (weight decay)?**
+
 **c. ¿Qué es `BatchNorm` y cómo ayuda a estabilizar el entrenamiento?**
+
 **d. ¿Cómo se relaciona `BatchNorm` con la velocidad de convergencia?**
+
 **e. ¿Puede `BatchNorm` actuar como regularizador? ¿Por qué?**
+
 **f. ¿Qué efectos visuales podrías observar en TensorBoard si hay overfitting?**
+
 **g ¿Cómo ayuda la regularización a mejorar la generalización del modelo?**
+
 
 ### Actividades de modificación:
 1. Agregar Dropout en la arquitectura MLP:
