@@ -32,14 +32,17 @@ Si aumentamos el tamaño de la imagen hay que cambiar el imput size.
 ## 3. Entrenamiento y Optimización
 
 **a. ¿Qué hace optimizer.zero_grad()?**
+Se encarga de resetear y borrar los gradientes del entrenamiento anterior antes de calcular los nuevos. Si no ponemos optimizer.zero_grad(), PyTorch acumula y suma los gradientes de la época pasada con la nueva.
 
 **b. ¿Por qué usamos CrossEntropyLoss() en este caso?**
+La usamos porque estamos en un problema de clasificación multiclase (tenemos varias categorías de lesiones y cada foto pertenece a una sola). Esta función de pérdida es la ideal porque penaliza fuerte al modelo si está muy seguro de una respuesta incorrecta, ayudando a que aprenda a separar bien las clases durante el entrenamiento.
 
 **c. ¿Cómo afecta la elección del tamaño de batch (batch_size) al entrenamiento?**
 El batch size es un numero de imagenes que mira el modelo antes de calcular el error y actualizar los pesos. Si se elige un batch chico: el gradiente de saltos mas abruptos, por lo que el entrenamiento puede ser mas oscilante, pero generalizar mejor y evitar soluciones falsas. Ademas de que requiere menos memoria, pero puede ser mas lento. Por su parte en batchs mas grandes, el gradiente es mas estable. Curva de perdida mas suave, pero ojo con que el modelo memorice. Requiere mas memoria. 
 
 
 **d. ¿Qué pasaría si no usamos model.eval() durante la validación?**
+Al no poner model.eval en la validación, el modelo se quedaria en modo entrenamiento, con Dropout activo. Es decir se van a apagar neuronas al azar en VAL. Las metricas en VAL van a dar mucho peor de lo que deberian.
 
 ## 4. Validación y Evaluación
 
@@ -47,20 +50,30 @@ El batch size es un numero de imagenes que mira el modelo antes de calcular el e
 Esto significa Overfitting o sobreajuste. Se debe a que el modelo memorizo las fotos del conjunto de TRAIN, pero al validarlo con fotos nuevas la memorizacion ya no le sirve ya que no aprendio a distinguir (tan bien).
 
 **b. ¿Qué otras métricas podrían ser más relevantes que accuracy en un problema real?**
+El Recall y la Precision. El Accuracy te miente si tenés un dataset desbalanceado (muchas fotos sanas y pocas enfermas). El Recall es clave porque te dice cuántos enfermos reales detectaste (para no mandar a alguien enfermo a la casa), y la Precision te dice qué tan confiable sos cuando asegurás que una lesión es peligrosa.
 
 **c. ¿Qué información útil nos da una matriz de confusión que no nos da la accuracy?**
+El Accuracy te da un número global y te esconde los errores. La matriz de confusión te muestra el mapa completo de las pifias: te dice exactamente qué clase se está confundiendo con cuál.
 
 **d. En el reporte de clasificación, ¿qué representan precision, recall y f1-score?**
+Precision, indica de todo lo que el modelo dijo que era de una clase, cuánto le pegó de verdad (mide qué tan seguro es al tirar un resultado).
+Recall, representat de todos los casos reales que había de esa clase, cuántos logró encontrar (mide que no se le escape ninguno).
+F1-Score, el promedio entre las dos; te da una nota única para saber si el modelo está bien equilibrado entre Precision y Recall.
 
 ## 5. TensorBoard y Logging
 
 **a. ¿Qué ventajas tiene usar TensorBoard durante el entrenamiento?**
+Las ventajas de usar TensorBoard son que permite ver toda la información de forma visual mediante gráficos en lugar de mirar números sueltos en la consola, facilitando el monitoreo de las curvas de Loss y Accuracy en tiempo real. Esto ayuda a detectar problemas como el sobreajuste (overfitting) al instante al comparar Train y Validación en la misma pantalla. Además, permite contrastar visualmente el rendimiento de diferentes pruebas con distintos hiperparámetros en simultáneo.
 
 **b. ¿Qué diferencias hay entre loguear add_scalar, add_image y add_text?**
+La diferencia es lo que guardás: add_scalar es para números que cambian en cada época, como los gráficos de Loss y Accuracy. add_image es para mandar fotos directamente y ver qué está procesando la red. Y add_text es para guardar texto, ideal para dejar anotados los hiperparámetros que usaste en esa corrida.
 
 **c. ¿Por qué es útil guardar visualmente las imágenes de validación en TensorBoard?**
+Es útil para ver en qué le está pifiando el modelo en la vida real. Al mirar la foto junto con lo que predijo la red y la etiqueta real, te das cuenta al toque si se está confundiendo por culpa del brillo, el fondo o si alguna transformación rompió la imagen.
+
 
 **d. ¿Cómo se puede comparar el desempeño de distintos experimentos en TensorBoard?**
+Se comparan abriendo todos los experimentos juntos en la interfaz de TensorBoard. La herramienta les asigna un color diferente a cada corrida y te superpone las curvas de Loss y Accuracy en el mismo gráfico. Esto te permite activar o desactivar experimentos desde el panel lateral para contrastar visualmente y al toque cuál configuración de hiperparámetros funcionó mejor.
 
 ## 6. Generalización y Transferencia
 
