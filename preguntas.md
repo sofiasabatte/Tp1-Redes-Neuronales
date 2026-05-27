@@ -24,8 +24,10 @@ Usamos MLP aca,  porque es un modelo mas basico para arrancar a entender como fu
 La capa flatten mencionada ya anteriormente, lo que hace es "desenrollar" la imagen, multiplicando ancho alto y canales para que la MLP la pueda procesar.
 
 **c. ¿Qué función de activación se usó? ¿Por qué no usamos Sigmoid o Tanh?**
+Se usa ReLU como funcion de activacion por distintos motivos. En primer lugar porque las funciones Sigmoid y Tanh traen problemas al calcular el gradiente para actualizar los pesos, ya que la derivada da casi cero (Vanishing Gradient). La derivada de ReLU en cambio, da siempre 1 (para valores positivos). En segundo lugar ya que las funciones Sigmoid y Tanh podrian volver el proceso muy lento y pesado (al usar exponenciales complejas). 
 
 **d. ¿Qué parámetro del modelo deberíamos cambiar si aumentamos el tamaño de entrada de la imagen?**
+Si aumentamos el tamaño de la imagen hay que cambiar el imput size.
 
 ## 3. Entrenamiento y Optimización
 
@@ -34,12 +36,15 @@ La capa flatten mencionada ya anteriormente, lo que hace es "desenrollar" la ima
 **b. ¿Por qué usamos CrossEntropyLoss() en este caso?**
 
 **c. ¿Cómo afecta la elección del tamaño de batch (batch_size) al entrenamiento?**
+El batch size es un numero de imagenes que mira el modelo antes de calcular el error y actualizar los pesos. Si se elige un batch chico: el gradiente de saltos mas abruptos, por lo que el entrenamiento puede ser mas oscilante, pero generalizar mejor y evitar soluciones falsas. Ademas de que requiere menos memoria, pero puede ser mas lento. Por su parte en batchs mas grandes, el gradiente es mas estable. Curva de perdida mas suave, pero ojo con que el modelo memorice. Requiere mas memoria. 
+
 
 **d. ¿Qué pasaría si no usamos model.eval() durante la validación?**
 
 ## 4. Validación y Evaluación
 
 **a. ¿Qué significa una accuracy del 70% en validación pero 90% en entrenamiento?**
+Esto significa Overfitting o sobreajuste. Se debe a que el modelo memorizo las fotos del conjunto de TRAIN, pero al validarlo con fotos nuevas la memorizacion ya no le sirve ya que no aprendio a distinguir (tan bien).
 
 **b. ¿Qué otras métricas podrían ser más relevantes que accuracy en un problema real?**
 
@@ -60,10 +65,14 @@ La capa flatten mencionada ya anteriormente, lo que hace es "desenrollar" la ima
 ## 6. Generalización y Transferencia
 
 **a. ¿Qué cambios habría que hacer si quisiéramos aplicar este mismo modelo a un dataset con 100 clases?**
+Hay que cambiar el parámetro num_classes = 100 para agrandar la última capa de la red. El modelo que tenemos ahora está configurado para dar menos respuestas; si no le ponemos 100 neuronas a la salida, el código va a tirar error de dimensiones porque no va a coincidir con las 100 etiquetas nuevas del dataset
 
 **b. ¿Por qué una CNN suele ser más adecuada que una MLP para clasificación de imágenes?**
+Porque la CNN mantiene la forma de la foto (mira los píxeles vecinos en 2D como con una lupa), lo que le permite entender bordes y texturas sin importar dónde estén. La MLP es más bruta: nos obliga a 'aplanar' la foto en una sola fila gigante, haciendo que se pierda la relación del espacio y que la cantidad de parámetros explote a millones, haciendo que se memorice las fotos de memoria.
 
 **c. ¿Qué problema podríamos tener si entrenamos este modelo con muy pocas imágenes por clase?**
+El problema es que vamos a caer de cabeza en Overfitting o sobreajuste. Como la red es grande y tiene muy pocas fotos para practicar, le va a resultar facil memorizarse los detalles de esas pocas fotos, en vez de aprender a distinguir de verdad. Va a dar un Accuracy altísimo en TRAIN pero no en VAL.
 
 **d. ¿Cómo podríamos adaptar este pipeline para imágenes en escala de grises?**
-
+Habria que modificar la carga de datos, configurarando las transformaciones para que lean las fotos en 1 solo canal de color en vez de 3 (RGB).
+Y el input_size, hay que sacar el * 3 de la primera capa del modelo.
