@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/7110a75ca5e94384b880b8afe99c352b/artifacts
+end_time: 1779890943525
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 7110a75ca5e94384b880b8afe99c352b
+run_name: skillful-quail-208
+run_uuid: 7110a75ca5e94384b880b8afe99c352b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779890595812
+status: 3
+tags: []
+user_id: Sofia
