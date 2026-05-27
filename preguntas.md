@@ -89,3 +89,93 @@ El problema es que vamos a caer de cabeza en Overfitting o sobreajuste. Como la 
 **d. ¿Cómo podríamos adaptar este pipeline para imágenes en escala de grises?**
 Habria que modificar la carga de datos, configurarando las transformaciones para que lean las fotos en 1 solo canal de color en vez de 3 (RGB).
 Y el input_size, hay que sacar el * 3 de la primera capa del modelo.
+
+## 7. Regularización
+
+### Preguntas teóricas:
+**a. ¿Qué es la regularización en el contexto del entrenamiento de redes neuronales?**
+**b. ¿Cuál es la diferencia entre `Dropout` y regularización `L2` (weight decay)?**
+**c. ¿Qué es `BatchNorm` y cómo ayuda a estabilizar el entrenamiento?**
+**d. ¿Cómo se relaciona `BatchNorm` con la velocidad de convergencia?**
+**e. ¿Puede `BatchNorm` actuar como regularizador? ¿Por qué?**
+**f. ¿Qué efectos visuales podrías observar en TensorBoard si hay overfitting?**
+**g ¿Cómo ayuda la regularización a mejorar la generalización del modelo?**
+
+### Actividades de modificación:
+1. Agregar Dropout en la arquitectura MLP:
+   - Insertar capas `nn.Dropout(p=0.5)` entre las capas lineales y activaciones.
+   - Comparar los resultados con y sin `Dropout`.
+
+2. Agregar Batch Normalization:
+   - Insertar `nn.BatchNorm1d(...)` después de cada capa `Linear` y antes de la activación:
+     ```python
+     self.net = nn.Sequential(
+         nn.Flatten(),
+         nn.Linear(in_features, 512),
+         nn.BatchNorm1d(512),
+         nn.ReLU(),
+         nn.Dropout(0.5),
+         nn.Linear(512, 256),
+         nn.BatchNorm1d(256),
+         nn.ReLU(),
+         nn.Dropout(0.5),
+         nn.Linear(256, num_classes)
+     )
+     ```
+
+3. Aplicar Weight Decay (L2):
+   - Modificar el optimizador:
+     ```python
+     optimizer = torch.optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-4)
+     ```
+
+4. Reducir overfitting con data augmentation:
+   - Agregar transformaciones en Albumentations como `HorizontalFlip`, `BrightnessContrast`, `ShiftScaleRotate`.
+
+5. Early Stopping (opcional):
+   - Implementar un criterio para detener el entrenamiento si la validación no mejora después de N épocas.
+
+### Preguntas prácticas:
+**a. ¿Qué efecto tuvo `BatchNorm` en la estabilidad y velocidad del entrenamiento?**
+**b. ¿Cambió la performance de validación al combinar `BatchNorm` con `Dropout`?**
+**c. ¿Qué combinación de regularizadores dio mejores resultados en tus pruebas?**
+**d. ¿Notaste cambios en la loss de entrenamiento al usar `BatchNorm`?**
+
+## 8. Inicialización de Parámetros
+
+### Preguntas teóricas:
+**a. ¿Por qué es importante la inicialización de los pesos en una red neuronal?**
+**b. ¿Qué podría ocurrir si todos los pesos se inicializan con el mismo valor?**
+**c. ¿Cuál es la diferencia entre las inicializaciones de Xavier (Glorot) y He?**
+**d. ¿Por qué en una red con ReLU suele usarse la inicialización de He?**
+**e. ¿Qué capas de una red requieren inicialización explícita y cuáles no?**
+
+### Actividades de modificación:
+1. Agregar inicialización manual en el modelo:
+   - En la clase `MLP`, agregar un método `init_weights` que inicialice cada capa:
+     ```python
+     def init_weights(self):
+         for m in self.modules():
+             if isinstance(m, nn.Linear):
+                 nn.init.kaiming_normal_(m.weight)
+                 nn.init.zeros_(m.bias)
+     ```
+
+2. Probar distintas estrategias de inicialización:
+   - Xavier (`nn.init.xavier_uniform_`)
+   - He (`nn.init.kaiming_normal_`)
+   - Aleatoria uniforme (`nn.init.uniform_`)
+   - Comparar la estabilidad y velocidad del entrenamiento.
+
+3. Visualizar pesos en TensorBoard:
+   - Agregar esta línea en la primera época para observar los histogramas:
+     ```python
+     for name, param in model.named_parameters():
+         writer.add_histogram(name, param, epoch)
+     ```
+
+### Preguntas prácticas:
+**a. ¿Qué diferencias notaste en la convergencia del modelo según la inicialización?**
+**b. ¿Alguna inicialización provocó inestabilidad (pérdida muy alta o NaNs)?**
+**c. ¿Qué impacto tiene la inicialización sobre las métricas de validación?**
+**d. ¿Por qué `bias` se suele inicializar en cero?**
