@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/951fe1987d3f43caa92f21beb85e87b0/artifacts
+end_time: 1780007831819
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 951fe1987d3f43caa92f21beb85e87b0
+run_name: amusing-carp-291
+run_uuid: 951fe1987d3f43caa92f21beb85e87b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780007514230
+status: 3
+tags: []
+user_id: Sofia

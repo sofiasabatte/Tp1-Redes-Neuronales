@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/5f78a39e55214502bb8af911d4da8771/artifacts
+deleted_time: 1780006943434
 end_time: 1779845486027
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5f78a39e55214502bb8af911d4da8771
 run_name: sincere-rat-795
 run_uuid: 5f78a39e55214502bb8af911d4da8771

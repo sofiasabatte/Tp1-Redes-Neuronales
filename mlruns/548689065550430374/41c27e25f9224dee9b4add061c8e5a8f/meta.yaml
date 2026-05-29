@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/41c27e25f9224dee9b4add061c8e5a8f/artifacts
+end_time: 1780005566295
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 41c27e25f9224dee9b4add061c8e5a8f
+run_name: merciful-moth-517
+run_uuid: 41c27e25f9224dee9b4add061c8e5a8f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780005484535
+status: 4
+tags: []
+user_id: Sofia

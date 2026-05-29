@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/6644fb728dc84f7c86f29e58c9d7ab3f/artifacts
+end_time: 1780009405218
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 6644fb728dc84f7c86f29e58c9d7ab3f
+run_name: inquisitive-vole-610
+run_uuid: 6644fb728dc84f7c86f29e58c9d7ab3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780009247964
+status: 4
+tags: []
+user_id: Sofia

@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/9129cd4a753041049308d5852eb1a20a/artifacts
+deleted_time: 1780006952649
 end_time: 1779846819536
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 9129cd4a753041049308d5852eb1a20a
 run_name: exultant-mouse-466
 run_uuid: 9129cd4a753041049308d5852eb1a20a

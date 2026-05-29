@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/233475ab9a9a4f12baa261c7bcc4aef0/artifacts
+deleted_time: 1780006952617
 end_time: 1779841367976
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 233475ab9a9a4f12baa261c7bcc4aef0
 run_name: agreeable-dove-358
 run_uuid: 233475ab9a9a4f12baa261c7bcc4aef0

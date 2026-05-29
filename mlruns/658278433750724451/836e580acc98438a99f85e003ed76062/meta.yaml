@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/836e580acc98438a99f85e003ed76062/artifacts
+deleted_time: 1780006943470
 end_time: 1779852026621
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 836e580acc98438a99f85e003ed76062
 run_name: unique-shrike-19
 run_uuid: 836e580acc98438a99f85e003ed76062

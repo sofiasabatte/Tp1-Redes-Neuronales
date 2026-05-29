@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/60387b6a7362425c92cfd7084f4c0a41/artifacts
+end_time: 1780015066362
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 60387b6a7362425c92cfd7084f4c0a41
+run_name: rogue-sheep-213
+run_uuid: 60387b6a7362425c92cfd7084f4c0a41
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780014770630
+status: 3
+tags: []
+user_id: Sofia

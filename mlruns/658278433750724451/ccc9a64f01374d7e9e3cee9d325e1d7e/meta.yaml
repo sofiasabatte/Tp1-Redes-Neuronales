@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/ccc9a64f01374d7e9e3cee9d325e1d7e/artifacts
+deleted_time: 1780006943447
 end_time: 1779846366795
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ccc9a64f01374d7e9e3cee9d325e1d7e
 run_name: rogue-gull-482
 run_uuid: ccc9a64f01374d7e9e3cee9d325e1d7e

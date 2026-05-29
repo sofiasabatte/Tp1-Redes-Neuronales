@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/27b08907121241bb95732b028df54b65/artifacts
+deleted_time: 1780006952598
 end_time: 1779845243097
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 27b08907121241bb95732b028df54b65
 run_name: rare-stork-140
 run_uuid: 27b08907121241bb95732b028df54b65

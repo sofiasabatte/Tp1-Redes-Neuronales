@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/a8777b5f9c1f47cfb231069026d051b1/artifacts
+deleted_time: 1780006943461
 end_time: 1779841025367
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a8777b5f9c1f47cfb231069026d051b1
 run_name: wise-hawk-32
 run_uuid: a8777b5f9c1f47cfb231069026d051b1

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/34de7f92b772430399f1c2a6d68e0c7a/artifacts
+end_time: 1780011490314
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: 34de7f92b772430399f1c2a6d68e0c7a
+run_name: unruly-dog-684
+run_uuid: 34de7f92b772430399f1c2a6d68e0c7a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780011475425
+status: 4
+tags: []
+user_id: Sofia

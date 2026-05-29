@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/1529d33568544c3c99c609fd8b8f4d3f/artifacts
+end_time: 1780016964560
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 1529d33568544c3c99c609fd8b8f4d3f
+run_name: placid-vole-488
+run_uuid: 1529d33568544c3c99c609fd8b8f4d3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780016710181
+status: 3
+tags: []
+user_id: Sofia

@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/49c1aa0b494841c1a26d9ff06c523511/artifacts
+deleted_time: 1780006952526
 end_time: 1779852262299
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 49c1aa0b494841c1a26d9ff06c523511
 run_name: unequaled-colt-368
 run_uuid: 49c1aa0b494841c1a26d9ff06c523511

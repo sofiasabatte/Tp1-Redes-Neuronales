@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/668d48b4941447d2911d1ae937c17fe2/artifacts
+deleted_time: 1780006943448
 end_time: 1779842350355
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 668d48b4941447d2911d1ae937c17fe2
 run_name: clumsy-bee-680
 run_uuid: 668d48b4941447d2911d1ae937c17fe2

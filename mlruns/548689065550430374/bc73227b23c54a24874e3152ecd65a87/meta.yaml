@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/bc73227b23c54a24874e3152ecd65a87/artifacts
+end_time: 1780010881134
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: bc73227b23c54a24874e3152ecd65a87
+run_name: traveling-loon-370
+run_uuid: bc73227b23c54a24874e3152ecd65a87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780010624004
+status: 3
+tags: []
+user_id: Sofia

@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/07bcb98506964e48acb115d4190967d3/artifacts
+deleted_time: 1780006952590
 end_time: 1779841976882
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 07bcb98506964e48acb115d4190967d3
 run_name: adaptable-ant-173
 run_uuid: 07bcb98506964e48acb115d4190967d3

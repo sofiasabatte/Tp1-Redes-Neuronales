@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/c9c5fa0f0b5245b688810a016e747e8b/artifacts
+deleted_time: 1780006943460
 end_time: 1779846686389
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c9c5fa0f0b5245b688810a016e747e8b
 run_name: selective-shrew-824
 run_uuid: c9c5fa0f0b5245b688810a016e747e8b

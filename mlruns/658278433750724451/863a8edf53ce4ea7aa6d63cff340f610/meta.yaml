@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/863a8edf53ce4ea7aa6d63cff340f610/artifacts
+deleted_time: 1780006952463
 end_time: 1779842542465
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 863a8edf53ce4ea7aa6d63cff340f610
 run_name: bald-pig-304
 run_uuid: 863a8edf53ce4ea7aa6d63cff340f610

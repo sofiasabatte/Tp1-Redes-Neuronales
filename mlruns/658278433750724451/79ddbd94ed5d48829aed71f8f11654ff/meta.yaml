@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/79ddbd94ed5d48829aed71f8f11654ff/artifacts
+deleted_time: 1780006952509
 end_time: 1779840771553
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 79ddbd94ed5d48829aed71f8f11654ff
 run_name: treasured-moth-734
 run_uuid: 79ddbd94ed5d48829aed71f8f11654ff

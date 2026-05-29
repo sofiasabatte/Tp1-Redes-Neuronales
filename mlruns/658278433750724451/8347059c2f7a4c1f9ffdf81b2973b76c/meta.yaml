@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/8347059c2f7a4c1f9ffdf81b2973b76c/artifacts
+deleted_time: 1780006952525
 end_time: 1779843996168
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8347059c2f7a4c1f9ffdf81b2973b76c
 run_name: amazing-auk-816
 run_uuid: 8347059c2f7a4c1f9ffdf81b2973b76c

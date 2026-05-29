@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/dadadeac06ab4916a428622c064b5f09/artifacts
+deleted_time: 1780006952692
 end_time: 1779846830879
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: dadadeac06ab4916a428622c064b5f09
 run_name: painted-mare-640
 run_uuid: dadadeac06ab4916a428622c064b5f09

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/624310d2a9c34ec3bbd62b15b1d421c9/artifacts
+end_time: 1780010463385
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 624310d2a9c34ec3bbd62b15b1d421c9
+run_name: bedecked-crab-753
+run_uuid: 624310d2a9c34ec3bbd62b15b1d421c9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780010194302
+status: 3
+tags: []
+user_id: Sofia

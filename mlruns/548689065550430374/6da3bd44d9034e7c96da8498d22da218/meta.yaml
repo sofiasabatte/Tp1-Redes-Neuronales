@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/6da3bd44d9034e7c96da8498d22da218/artifacts
+end_time: 1780008851338
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 6da3bd44d9034e7c96da8498d22da218
+run_name: abundant-frog-586
+run_uuid: 6da3bd44d9034e7c96da8498d22da218
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780008762891
+status: 4
+tags: []
+user_id: Sofia

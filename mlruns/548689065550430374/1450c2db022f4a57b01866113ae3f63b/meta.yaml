@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/1450c2db022f4a57b01866113ae3f63b/artifacts
+end_time: 1780019693871
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 1450c2db022f4a57b01866113ae3f63b
+run_name: capricious-gull-385
+run_uuid: 1450c2db022f4a57b01866113ae3f63b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780019394616
+status: 3
+tags: []
+user_id: Sofia

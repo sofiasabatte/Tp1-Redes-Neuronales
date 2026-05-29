@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/9a6bdca76e4d424a839039a7f728984e/artifacts
+end_time: 1780016548870
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 9a6bdca76e4d424a839039a7f728984e
+run_name: traveling-cow-203
+run_uuid: 9a6bdca76e4d424a839039a7f728984e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780016291660
+status: 3
+tags: []
+user_id: Sofia

@@ -113,6 +113,8 @@ Y el input_size, hay que sacar el * 3 de la primera capa del modelo.
    - Insertar capas `nn.Dropout(p=0.5)` entre las capas lineales y activaciones.
    - Comparar los resultados con y sin `Dropout`.
 
+Sin Dropout, el modelo base sufria de sobreajuste,  train accuracy subia rápido pero la validación se estanca y genera curvas inestables con "serrucho" (la red memorizaba). Al meterle Dropout (p=0.5), el sobreajuste se elimina al apagar la mitad de las neuronas al azar, pero fue tan fuerte que el modelo cayó en underfitting (39.44% en train y 43.78% en val). En conclusión, el Dropout es clave, pero un valor de 0.5 fue muy fuerte, voy a probar usar un Dropout más bajo.
+
 2. Agregar Batch Normalization:
    - Insertar `nn.BatchNorm1d(...)` después de cada capa `Linear` y antes de la activación:
      ```python

@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/014481c929894b8d988a932b0ccd8703/artifacts
+deleted_time: 1780006943473
 end_time: 1779845946325
 entry_point_name: ''
 experiment_id: '658278433750724451'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 014481c929894b8d988a932b0ccd8703
 run_name: abrasive-owl-734
 run_uuid: 014481c929894b8d988a932b0ccd8703
