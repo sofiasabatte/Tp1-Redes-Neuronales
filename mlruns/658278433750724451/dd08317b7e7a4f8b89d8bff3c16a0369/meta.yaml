@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/dd08317b7e7a4f8b89d8bff3c16a0369/artifacts
+end_time: 1780087755788
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: dd08317b7e7a4f8b89d8bff3c16a0369
+run_name: casual-calf-762
+run_uuid: dd08317b7e7a4f8b89d8bff3c16a0369
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780087506402
+status: 4
+tags: []
+user_id: Sofia

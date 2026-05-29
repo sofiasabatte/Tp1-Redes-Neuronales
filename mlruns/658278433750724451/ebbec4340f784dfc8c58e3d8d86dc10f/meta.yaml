@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/ebbec4340f784dfc8c58e3d8d86dc10f/artifacts
+end_time: 1780078443747
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: ebbec4340f784dfc8c58e3d8d86dc10f
+run_name: victorious-smelt-748
+run_uuid: ebbec4340f784dfc8c58e3d8d86dc10f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780078256177
+status: 3
+tags: []
+user_id: Sofia

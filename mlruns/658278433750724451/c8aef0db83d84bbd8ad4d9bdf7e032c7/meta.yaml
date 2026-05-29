@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/c8aef0db83d84bbd8ad4d9bdf7e032c7/artifacts
+end_time: 1780090650818
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: c8aef0db83d84bbd8ad4d9bdf7e032c7
+run_name: brawny-seal-443
+run_uuid: c8aef0db83d84bbd8ad4d9bdf7e032c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780090322973
+status: 3
+tags: []
+user_id: Sofia

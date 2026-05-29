@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/10064ae7fd654ab78af629589dbcbfd1/artifacts
+end_time: 1780092653439
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: 10064ae7fd654ab78af629589dbcbfd1
+run_name: fortunate-hawk-389
+run_uuid: 10064ae7fd654ab78af629589dbcbfd1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780092063228
+status: 3
+tags: []
+user_id: Sofia

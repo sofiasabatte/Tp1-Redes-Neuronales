@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/5036e87b186246b1ac7b3820f455ea63/artifacts
+end_time: 1780077693185
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: 5036e87b186246b1ac7b3820f455ea63
+run_name: salty-frog-970
+run_uuid: 5036e87b186246b1ac7b3820f455ea63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780077403106
+status: 3
+tags: []
+user_id: Sofia

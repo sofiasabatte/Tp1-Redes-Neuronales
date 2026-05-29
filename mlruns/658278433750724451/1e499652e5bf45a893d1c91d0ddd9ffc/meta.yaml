@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/1e499652e5bf45a893d1c91d0ddd9ffc/artifacts
+end_time: 1780079422042
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: 1e499652e5bf45a893d1c91d0ddd9ffc
+run_name: legendary-crab-489
+run_uuid: 1e499652e5bf45a893d1c91d0ddd9ffc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780079019897
+status: 3
+tags: []
+user_id: Sofia

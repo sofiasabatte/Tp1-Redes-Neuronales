@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/31688687ef1e487f8a3acf520e176339/artifacts
+end_time: 1780091352755
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: 31688687ef1e487f8a3acf520e176339
+run_name: resilient-loon-291
+run_uuid: 31688687ef1e487f8a3acf520e176339
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780090946361
+status: 3
+tags: []
+user_id: Sofia

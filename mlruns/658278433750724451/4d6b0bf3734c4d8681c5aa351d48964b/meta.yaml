@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/4d6b0bf3734c4d8681c5aa351d48964b/artifacts
+end_time: 1780080045945
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: 4d6b0bf3734c4d8681c5aa351d48964b
+run_name: dashing-moth-499
+run_uuid: 4d6b0bf3734c4d8681c5aa351d48964b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780079707322
+status: 3
+tags: []
+user_id: Sofia

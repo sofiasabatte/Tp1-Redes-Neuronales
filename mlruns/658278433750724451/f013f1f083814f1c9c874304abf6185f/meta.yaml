@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/f013f1f083814f1c9c874304abf6185f/artifacts
+end_time: 1780089176091
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: f013f1f083814f1c9c874304abf6185f
+run_name: redolent-stoat-679
+run_uuid: f013f1f083814f1c9c874304abf6185f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780088915986
+status: 3
+tags: []
+user_id: Sofia

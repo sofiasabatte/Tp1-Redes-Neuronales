@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/76f6ab9a687a43ddbf3839b08f5a6713/artifacts
+end_time: 1780077403028
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: 76f6ab9a687a43ddbf3839b08f5a6713
+run_name: capricious-mink-92
+run_uuid: 76f6ab9a687a43ddbf3839b08f5a6713
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780076857811
+status: 3
+tags: []
+user_id: Sofia

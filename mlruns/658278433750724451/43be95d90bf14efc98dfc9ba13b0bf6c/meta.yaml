@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/43be95d90bf14efc98dfc9ba13b0bf6c/artifacts
+end_time: 1780093378918
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: 43be95d90bf14efc98dfc9ba13b0bf6c
+run_name: learned-wren-522
+run_uuid: 43be95d90bf14efc98dfc9ba13b0bf6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780093024047
+status: 3
+tags: []
+user_id: Sofia
