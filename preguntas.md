@@ -161,7 +161,11 @@ Sin Dropout, el modelo base sufria de sobreajuste,  train accuracy subia rápido
 
 ### Preguntas teóricas:
 **a. ¿Por qué es importante la inicialización de los pesos en una red neuronal?**
+La inicialización de pesos es importante porque influye directamente en cómo empieza el aprendizaje de la red. Una buena inicialización ayuda a que los gradientes se propaguen correctamente y permite que el entrenamiento sea más estable y rápido.
+
 **b. ¿Qué podría ocurrir si todos los pesos se inicializan con el mismo valor?**
+
+
 **c. ¿Cuál es la diferencia entre las inicializaciones de Xavier (Glorot) y He?**
 **d. ¿Por qué en una red con ReLU suele usarse la inicialización de He?**
 **e. ¿Qué capas de una red requieren inicialización explícita y cuáles no?**
