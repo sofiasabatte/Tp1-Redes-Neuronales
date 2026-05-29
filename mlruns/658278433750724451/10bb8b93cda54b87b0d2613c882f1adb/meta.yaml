@@ -1,5 +1,5 @@
 artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/10bb8b93cda54b87b0d2613c882f1adb/artifacts
-end_time: null
+end_time: 1780093849584
 entry_point_name: ''
 experiment_id: '658278433750724451'
 lifecycle_stage: active
@@ -10,6 +10,6 @@ source_name: ''
 source_type: 4
 source_version: ''
 start_time: 1780093379018
-status: 1
+status: 3
 tags: []
 user_id: Sofia
