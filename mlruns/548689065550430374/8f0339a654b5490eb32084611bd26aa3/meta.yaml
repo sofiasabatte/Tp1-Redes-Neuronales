@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/8f0339a654b5490eb32084611bd26aa3/artifacts
+end_time: 1780070888440
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 8f0339a654b5490eb32084611bd26aa3
+run_name: tasteful-shoat-817
+run_uuid: 8f0339a654b5490eb32084611bd26aa3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780070885871
+status: 4
+tags: []
+user_id: Sofia

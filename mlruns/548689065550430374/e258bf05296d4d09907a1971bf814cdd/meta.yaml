@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/e258bf05296d4d09907a1971bf814cdd/artifacts
+end_time: 1780072317294
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: e258bf05296d4d09907a1971bf814cdd
+run_name: bright-wasp-530
+run_uuid: e258bf05296d4d09907a1971bf814cdd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780072053806
+status: 3
+tags: []
+user_id: Sofia

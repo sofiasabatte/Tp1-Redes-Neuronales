@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/25f1761f42ea40e1af6a5f0b7de65b69/artifacts
+end_time: 1780074091087
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: 25f1761f42ea40e1af6a5f0b7de65b69
+run_name: agreeable-sheep-69
+run_uuid: 25f1761f42ea40e1af6a5f0b7de65b69
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780073540905
+status: 3
+tags: []
+user_id: Sofia

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/658278433750724451/e5d4b7f6ee904ce8ad8e7ddbdb6c779d/artifacts
+end_time: 1780074441714
+entry_point_name: ''
+experiment_id: '658278433750724451'
+lifecycle_stage: active
+run_id: e5d4b7f6ee904ce8ad8e7ddbdb6c779d
+run_name: resilient-snipe-623
+run_uuid: e5d4b7f6ee904ce8ad8e7ddbdb6c779d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780074091210
+status: 3
+tags: []
+user_id: Sofia

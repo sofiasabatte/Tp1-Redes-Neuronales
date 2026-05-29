@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/04933dc97c064a6fa6bb911f9e6b2fbb/artifacts
+end_time: 1780070390034
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 04933dc97c064a6fa6bb911f9e6b2fbb
+run_name: invincible-dog-413
+run_uuid: 04933dc97c064a6fa6bb911f9e6b2fbb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780070057115
+status: 3
+tags: []
+user_id: Sofia

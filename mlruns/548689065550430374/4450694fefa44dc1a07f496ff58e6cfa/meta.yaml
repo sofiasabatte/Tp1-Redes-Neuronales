@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/ITBA/REDES%20NEURONALES/Tp1-Redes-Neuronales/mlruns/548689065550430374/4450694fefa44dc1a07f496ff58e6cfa/artifacts
+end_time: 1780071512662
+entry_point_name: ''
+experiment_id: '548689065550430374'
+lifecycle_stage: active
+run_id: 4450694fefa44dc1a07f496ff58e6cfa
+run_name: sincere-snail-954
+run_uuid: 4450694fefa44dc1a07f496ff58e6cfa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780071198490
+status: 3
+tags: []
+user_id: Sofia

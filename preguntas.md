@@ -94,18 +94,25 @@ Y el input_size, hay que sacar el * 3 de la primera capa del modelo.
 
 ### Preguntas teóricas:
 **a. ¿Qué es la regularización en el contexto del entrenamiento de redes neuronales?**
+La regularización en redes neuronales son técnicas que limitan la capacidad del modelo de memorizar el conjunto de TRAIN, favoreciendo soluciones que generalicen mejor a datos no vistos. Se busca reducir el sobreajuste penalizando modelos muy complejos o introduciendo restricciones durante el entrenamiento. 
 
 **b. ¿Cuál es la diferencia entre `Dropout` y regularización `L2` (weight decay)?**
+Las dos buscan bajar el overfitting, pero de manera distinta. La regularización L2 (weight decay) agrega una penalización a la función de pérdida para que los pesos de la red NO crezcan demasiado, favoreciendo modelos más simples y estables. Dropout apaga aleatoriamente neuronas durante el entrenamiento, obligando a la red a no depender excesivamente de ciertas conexiones.
 
 **c. ¿Qué es `BatchNorm` y cómo ayuda a estabilizar el entrenamiento?**
+BatchNorm es una técnica que normaliza las activaciones de una capa, es asi que los datos se vuelven más estables durante el entrenamiento, y se evitan cambios muy violentos en las activaciones entre capas.
 
 **d. ¿Cómo se relaciona `BatchNorm` con la velocidad de convergencia?**
+BatchNorm hace que el entrenamiento sea más estable y permite usar learning rates más altos. Gracias a eso, la red suele aprender más rápido y llegar antes a buenos resultados.
 
 **e. ¿Puede `BatchNorm` actuar como regularizador? ¿Por qué?**
+Sí. Como la normalización depende de cada mini-batch, introduce pequeñas variaciones durante el entrenamiento. Eso hace que la red no se adapte demasiado a los datos de entrenamiento y ayuda a reducir el overfitting.
 
 **f. ¿Qué efectos visuales podrías observar en TensorBoard si hay overfitting?**
+Se vería que la precisión de entrenamiento sigue aumentando mientras la de validación se estanca o baja. También suele pasar que la pérdida de entrenamiento disminuye, pero la pérdida de validación empieza a subir.
 
 **g ¿Cómo ayuda la regularización a mejorar la generalización del modelo?**
+La regularización mejora la generalización porque evita que la red neuronal memorice los datos de TRAIN y obliga al modelo a aprender patrones más generales y robustos.
 
 
 ### Actividades de modificación:
