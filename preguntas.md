@@ -164,11 +164,16 @@ Sin Dropout, el modelo base sufria de sobreajuste,  train accuracy subia rápido
 La inicialización de pesos es importante porque influye directamente en cómo empieza el aprendizaje de la red. Una buena inicialización ayuda a que los gradientes se propaguen correctamente y permite que el entrenamiento sea más estable y rápido.
 
 **b. ¿Qué podría ocurrir si todos los pesos se inicializan con el mismo valor?**
-
+Si todos los pesos arrancan con el mismo valor, todas las neuronas de una capa aprenden exactamente lo mismo durante el entrenamiento. La red se comporta como si tuviera una sola neurona por capa 
 
 **c. ¿Cuál es la diferencia entre las inicializaciones de Xavier (Glorot) y He?**
+Xavier (Glorot) está diseñado para activaciones como sigmoide y tanh, considerando tanto entradas como salidas de la capa. He está diseñado para ReLU, considera solo las entradas y tiene mayor varianza que Xavier para compensar que ReLU apaga alrededor de la mitad de las neuronas, lo que lo hace más adecuado para redes con ReLU.
+
 **d. ¿Por qué en una red con ReLU suele usarse la inicialización de He?**
+En una red con ReLU se usa la inicialización de He porque ReLU apaga aprox el 50% de las neuronas , y He compensa esto con mayor varianza en los pesos iniciales, manteniendo la propagación estable de activaciones y gradientes y evitando que el gradiente desaparezca.
+
 **e. ¿Qué capas de una red requieren inicialización explícita y cuáles no?**
+En una MLP las capas que requieren inicialización explícita son las capas densas. Las capas que no requieren inicialización explícita son las de activación (ReLU, sigmoid, tanh), dropout y la capa de entrada (que no tiene pesos).
 
 ### Actividades de modificación:
 1. Agregar inicialización manual en el modelo:

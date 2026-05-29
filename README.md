@@ -7,7 +7,7 @@ El flujo de trabajo se dividió estrictamente en 5 fases:
 
 ##  Flujo del Proyecto
 
-#### 1. EDA (Análisis Exploratorio de Datos)
+### 1. EDA (Análisis Exploratorio de Datos)
 Fase inicial orientada a **conocer el dataset** en profundidad antes de entrenar.
 
 ### 2. Prueba Manual Inicial 
