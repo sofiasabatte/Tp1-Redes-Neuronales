@@ -65,7 +65,7 @@ F1-Score, el promedio entre las dos; te da una nota única para saber si el mode
 **a. ¿Qué ventajas tiene usar TensorBoard durante el entrenamiento?**
 Las ventajas de usar TensorBoard son que permite ver toda la información de forma visual mediante gráficos en lugar de mirar números sueltos en la consola, facilitando el monitoreo de las curvas de Loss y Accuracy en tiempo real. Esto ayuda a detectar problemas como el sobreajuste (overfitting) al instante al comparar Train y Validación en la misma pantalla. Además, permite contrastar visualmente el rendimiento de diferentes pruebas con distintos hiperparámetros en simultáneo.
 
-**b. ¿Qué diferencias hay entre loguear add_scalar, add_image y add_text?**
+**b. ¿Qué diferencias hay entre loguear add_scalar, add_image y  add_text?**
 La diferencia es lo que guardás: add_scalar es para números que cambian en cada época, como los gráficos de Loss y Accuracy. add_image es para mandar fotos directamente y ver qué está procesando la red. Y add_text es para guardar texto, ideal para dejar anotados los hiperparámetros que usaste en esa corrida.
 
 **c. ¿Por qué es útil guardar visualmente las imágenes de validación en TensorBoard?**
