@@ -60,7 +60,7 @@ Precision, indica de todo lo que el modelo dijo que era de una clase, cuánto le
 Recall, representat de todos los casos reales que había de esa clase, cuántos logró encontrar (mide que no se le escape ninguno).
 F1-Score, el promedio entre las dos; te da una nota única para saber si el modelo está bien equilibrado entre Precision y Recall.
 
-## 5. TensorBoard y Logging
+## 5. TensorBoard 
 
 **a. ¿Qué ventajas tiene usar TensorBoard durante el entrenamiento?**
 Las ventajas de usar TensorBoard son que permite ver toda la información de forma visual mediante gráficos en lugar de mirar números sueltos en la consola, facilitando el monitoreo de las curvas de Loss y Accuracy en tiempo real. Esto ayuda a detectar problemas como el sobreajuste (overfitting) al instante al comparar Train y Validación en la misma pantalla. Además, permite contrastar visualmente el rendimiento de diferentes pruebas con distintos hiperparámetros en simultáneo.
