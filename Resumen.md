@@ -61,7 +61,7 @@ SGD lr=1e-3, batch=16, input=32×32, dropout=0.1, momentum=0.99, HFlip=0.5, VFli
 ![](imágenes/val_accuracy2.png)
 ![](imagenes/val_loss2.png)
 
-### 4. Refinamiento Manual de Candidatos Ganadores
+## 4. Refinamiento Manual de Candidatos Ganadores
 A partir de los resultados de la búsqueda, se identificaron los mejores modelos filtrando por val accuracy ≥ 60% y brecha train/val ≤ 10 puntos. 
 
 Al intentar replicar los HP del mejor modelo de la búsqueda (SGD lr=1e-3, batch=16, dropout=0.1, momentum=0.99, HFlip/VFlip/RBContrast=0.5), los resultados variaban entre corridas porque la inicialización de pesos es aleatoria y no se había guardado la semilla original. Probe distintas semillas (42, 7, 0, 123) hasta encontrar una que diera resultados similares. 
@@ -80,7 +80,7 @@ Finalmente el modelo ganador (con el que hice el test):
 
 .
 
-### 5. Test (Evaluación Final)
+## 5. Test (Evaluación Final)
 Se procedió con la evaluación definitiva del modelo campeón (`legendario-auk-911`) utilizando el **Test Set**.
 
 #### Métricas Globales Obtenidas
