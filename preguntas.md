@@ -153,9 +153,17 @@ Sin Dropout, el modelo base sufria de sobreajuste,  train accuracy subia rápido
 
 ### Preguntas prácticas:
 **a. ¿Qué efecto tuvo `BatchNorm` en la estabilidad y velocidad del entrenamiento?**
+La loss bajó más estable, sin los saltos de antes. Convergió antes.
+
 **b. ¿Cambió la performance de validación al combinar `BatchNorm` con `Dropout`?**
+Sí, combinar BatchNorm con Dropout mejoró la val accuracy, mucho mas que  usarlos por separado. 
+
 **c. ¿Qué combinación de regularizadores dio mejores resultados en tus pruebas?**
+c. La mejor combinación fue BatchNorm + Dropout (0.2 en las dos capas) + Weight Decay (1e-4), con Adam lr=0.001, batch=32, input 64×64, early stopping patience=5, y augmentations de HFlip, VFlip, RandomBrightnessContrast, CLAHE, HueSaturationValue y CoarseDropout. Llegó a train acc 61.3% / train loss 1.054 y val acc 60.4% / val loss 1.114, con una brecha de menos de 1 punto, el resultado más equilibrado de toda la **prueba manual**.
+
 **d. ¿Notaste cambios en la loss de entrenamiento al usar `BatchNorm`?**
+Sí, la training loss fue más baja y estable desde las primeras épocas. 
+
 
 ## 8. Inicialización de Parámetros
 
@@ -201,6 +209,13 @@ En una MLP las capas que requieren inicialización explícita son las capas dens
 
 ### Preguntas prácticas:
 **a. ¿Qué diferencias notaste en la convergencia del modelo según la inicialización?**
+Con Kaiming la loss bajó más rápido en las primeras épocas comparado con la inicialización default de PyTorch.
+
 **b. ¿Alguna inicialización provocó inestabilidad (pérdida muy alta o NaNs)?**
+No.
+
 **c. ¿Qué impacto tiene la inicialización sobre las métricas de validación?**
+La diferencia en val accuracy no fue enorme, pero Kaiming llegó un poco más alto y en menos épocas. La inicialización importa más para la velocidad de convergencia que para el resultado final.
+
 **d. ¿Por qué `bias` se suele inicializar en cero?**
+El bias es como el punto de partida de cada neurona. Si arranca en cero, la neurona empieza "neutral" y va aprendiendo cuánto necesita desplazarse. Si arrancara en un valor grande, estaría empujando la activación para un lado desde antes de ver un dato.
