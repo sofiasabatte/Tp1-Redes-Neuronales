@@ -28,10 +28,10 @@ Las técnicas se fueron aplicando en este orden:
 
 **Mejor configuración encontrada de forma manual:** BatchNorm + Dropout (0.2/0.2) + Weight Decay (1e-4), Adam lr=0.001, batch=32, input 64×64, early stopping patience=5, augmentations de HFlip, VFlip, RandomBrightnessContrast, CLAHE, HueSaturationValue y CoarseDropout. Resultados: train acc 61.3% / train loss 1.054 — val acc 60.4% / val loss 1.114, con una brecha de menos de 1 punto.
 
-![](imágenes/train_accuracy.png)
-![](imágenes/train_loss.png)
-![](imágenes/val_accuracy.png)
-![](imágenes/val_loss.png)
+![](imagenes/train_accuracy.png)
+![](imagenes/train_loss.png)
+![](imagenes/val_accuracy.png)
+![](imagenes/val_loss.png)
 
 ## 3. Búsqueda Automática de Hiperparámetros: Automatización del proceso mediante Random Search, explorando el espacio de soluciones.
 
@@ -56,9 +56,9 @@ Conclusiones de la búsqueda:
 **Mejor modelo**: Corrida c30e84ff con val acc 63.9% (mayor a train acc), el modelo generaliza mejor de lo que memoriza. 
 SGD lr=1e-3, batch=16, input=32×32, dropout=0.1, momentum=0.99, HFlip=0.5, VFlip=0.5, RBContrast=0.5
 
-![](imágenes/train_accuracy2.png)
-![](imágenes/train_loss2.png)
-![](imágenes/val_accuracy2.png)
+![](imagenes/train_accuracy2.png)
+![](imagenes/train_loss2.png)
+![](imagenes/val_accuracy2.png)
 ![](imagenes/val_loss2.png)
 
 ## 4. Refinamiento Manual de Candidatos Ganadores
@@ -68,15 +68,15 @@ Al intentar replicar los HP del mejor modelo de la búsqueda (SGD lr=1e-3, batch
 
 Finalmente el modelo ganador (con el que hice el test): 
 
-| Conjunto de Datos | Accuracy (Precisión) | Pérdida (Loss) |
+| Conjunto de Datos | Accuracy (mejor checkpoint) |
 | :--- | :---: | :---: |
-| **Entrenamiento (Train)** | 69.07% | 0.8258 |
-| **Validación (Val)** | 62.13% | 1.0871 |
+| **Entrenamiento (Train)** | 64.44% |
+| **Validación (Val)** | 65.58% | 
 
-![](imágenes/train_accuracy3.png)
-![](imágenes/train_loss3.png)
-![](imágenes/val_accuracy3.png)
-![](imágenes/val_loss3.png)
+![](imagenes/train_accuracy3.png)
+![](imagenes/train_loss3.png)
+![](imagenes/val_accuracy3.png)
+![](imagenes/val_loss3.png)
 
 .
 
@@ -95,7 +95,7 @@ Considerando que el piso probabilístico para un acierto aleatorio en un problem
 
 #### Análisis de la Matriz de Confusión de TEST
 
-![](imágenes/test_matrix.png)
+![](imagenes/test_matrix.png)
 
 Al desglosar la matriz de confusión del conjunto de prueba, se extrajeron observaciones críticas sobre la lógica de aprendizaje de la red:
 
