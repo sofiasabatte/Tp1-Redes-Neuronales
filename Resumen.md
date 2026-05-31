@@ -53,7 +53,7 @@ Conclusiones de la búsqueda:
 - Input 32×32 funcionó igual o mejor que 64×64, con menos parámetros.
 - CoarseDropout no aportó en ninguno de los top modelos (p=0.0 en todos). 
 
-**Mejor modelo**: Corrida c30e84ff con val acc 63.9% (mayor a train acc), el modelo generaliza mejor de lo que memoriza. 
+**Mejor modelo**: Corrida c30e84ff con val acc 63.9% (mejor que TRAIN) , el modelo generaliza mejor de lo que memoriza. 
 SGD lr=1e-3, batch=16, input=32×32, dropout=0.1, momentum=0.99, HFlip=0.5, VFlip=0.5, RBContrast=0.5
 
 ![](imagenes/train_accuracy2.png)
@@ -69,7 +69,7 @@ Al intentar replicar los HP del mejor modelo de la búsqueda (SGD lr=1e-3, batch
 Finalmente el modelo ganador (con el que hice el test): 
 
 | Conjunto de Datos | Accuracy (mejor checkpoint) |
-| :--- | :---: | :---: |
+| :--- | :---: | 
 | **Entrenamiento (Train)** | 64.44% |
 | **Validación (Val)** | 65.58% | 
 
@@ -78,7 +78,7 @@ Finalmente el modelo ganador (con el que hice el test):
 ![](imagenes/val_accuracy3.png)
 ![](imagenes/val_loss3.png)
 
-.
+
 
 ## 5. Test (Evaluación Final)
 Se procedió con la evaluación definitiva del modelo campeón (`legendario-auk-911`) utilizando el **Test Set**.
@@ -97,7 +97,7 @@ Considerando que el piso probabilístico para un acierto aleatorio en un problem
 
 ![](imagenes/test_matrix.png)
 
-Al desglosar la matriz de confusión del conjunto de prueba, se extrajeron observaciones críticas sobre la lógica de aprendizaje de la red:
+Al desglosar la matriz de confusión del conjunto de prueba, se extrajeron las siiguientes observaciones:
 
 - El modelo funcionó muy bien con clases como Benign keratosis (18/20 aciertos), Melanocytic nevus (16/20) y Vascular lesion (14/15). En estos casos, la red encontró características visuales claras y no tuvo problemas para identificarlas.
 
