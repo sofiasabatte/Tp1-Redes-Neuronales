@@ -37,13 +37,13 @@ Las técnicas se fueron aplicando en este orden:
 
 Espacio de búsqueda: se definieron los siguientes hiperparámetros a explorar:
 
-Tamaño de entrada de la imagen: 32×32 o 64×64
-Batch size: 16 o 64
-Learning rate: 1e-3 o 1e-4
-Optimizador: Adam o SGD (con momentum 0.9 o 0.99)
-Probabilidades de augmentations: Horizontal/Vertical Flip, RandomBrightnessContrast, CLAHE, CoarseDropout
-Dropout: 0.0, 0.1, 0.2 o 0.3
-Inicialización de pesos: Default o Kaiming
+- Tamaño de entrada de la imagen: 32×32 o 64×64
+- Batch size: 16 o 64
+- Learning rate: 1e-3 o 1e-4
+- Optimizador: Adam o SGD (con momentum 0.9 o 0.99)
+- Probabilidades de augmentations: Horizontal/Vertical Flip, RandomBrightnessContrast, CLAHE, CoarseDropout
+- Dropout: 0.0, 0.1, 0.2 o 0.3
+- Inicialización de pesos: Default o Kaiming
 
 Se sorteó el 5% del espacio total de 3.072 combinaciones, resultando en 207 modelos. 
 
